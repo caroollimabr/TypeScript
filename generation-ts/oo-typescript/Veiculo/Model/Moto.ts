@@ -12,8 +12,8 @@ export class Moto extends MotoImp{
         this._Capacete = value;
     }
 
-    empinar(){
-        console.log("RUMMMMMMMM, empinando a motoca e robando a cena no baile pa...");
+    desligar(){
+        console.log("A moto desligou.");
     }
 
     

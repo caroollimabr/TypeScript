@@ -20,7 +20,7 @@ var MotoImp = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     MotoImp.prototype.trocarDeMarcha = function () {
-        console.log("Apertar com a mão a Empreagem ");
+        console.log("Apertar com a mão a Embreagem ");
         console.log("Passar para a proxima marcha com o pé ");
     };
     MotoImp.prototype.freiar = function () {

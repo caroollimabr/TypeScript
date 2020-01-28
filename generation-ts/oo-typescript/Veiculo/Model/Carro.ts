@@ -13,8 +13,8 @@ export class Carro extends CarroImp   {
         this._Sedan = value;
     }
 
-    drift(){
-        console.log("HIIIIIIII olha o possante dando drift...");
+    desligar(){
+        console.log("O carro desligou.");
     }
 
 }

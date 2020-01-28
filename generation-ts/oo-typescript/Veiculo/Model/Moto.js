@@ -25,8 +25,8 @@ var Moto = /** @class */ (function (_super) {
     Moto.prototype.setCapacete = function (value) {
         this._Capacete = value;
     };
-    Moto.prototype.empinar = function () {
-        console.log("RUMMMMMMMM, empinando a motoca e robando a cena no baile pa...");
+    Moto.prototype.desligar = function () {
+        console.log("A moto desligou.");
     };
     return Moto;
 }(MotoImp_1.MotoImp));

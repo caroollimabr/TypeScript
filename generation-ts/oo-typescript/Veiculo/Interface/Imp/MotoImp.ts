@@ -3,7 +3,7 @@ import { ICambio } from "../ICambio";
 
 export class MotoImp extends Veiculo implements ICambio {
     trocarDeMarcha() {
-        console.log("Apertar com a mão a Empreagem ");
+        console.log("Apertar com a mão a Embreagem ");
         console.log("Passar para a proxima marcha com o pé ");
     }
     freiar() {

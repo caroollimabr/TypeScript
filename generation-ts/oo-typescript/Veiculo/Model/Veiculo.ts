@@ -1,6 +1,6 @@
 export class Veiculo{
     
-    //Gerando Propriedades privada para o objeto
+    //Gerando propriedades privadas para o objeto
 
     private _Placa: string;  
 
@@ -10,7 +10,7 @@ export class Veiculo{
   
     private _Ano: number;
    
-    //Gerando Get e Setter para as propriedades
+    //Gerando Getters e Setters para as propriedades
 
     public getPlaca(): string {
         return this._Placa;
@@ -33,7 +33,6 @@ export class Veiculo{
         this._Modelo = value;
     }
 
-    
     public getAno(): number {
         return this._Ano;
     }

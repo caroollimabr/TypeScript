@@ -20,7 +20,7 @@ var CarroImp = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CarroImp.prototype.trocarDeMarcha = function () {
-        console.log("Pisar na Empreagem ");
+        console.log("Pisar na Embreagem ");
         console.log("Passar para a proxima Marcha ");
     };
     CarroImp.prototype.freiar = function () {

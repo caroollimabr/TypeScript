@@ -25,8 +25,8 @@ var Carro = /** @class */ (function (_super) {
     Carro.prototype.setSedan = function (value) {
         this._Sedan = value;
     };
-    Carro.prototype.drift = function () {
-        console.log("HIIIIIIII olha o possante dando drift...");
+    Carro.prototype.desligar = function () {
+        console.log("O carro desligou.");
     };
     return Carro;
 }(CarroImp_1.CarroImp));

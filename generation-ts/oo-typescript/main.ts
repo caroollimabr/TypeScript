@@ -5,23 +5,23 @@ import { Carro } from './Veiculo/Model/Carro';
 
 var carro = new Carro();
 
-console.log("Meu Caranguinho \n")
+console.log("Meu carro \n")
 
 carro.acelerar();
-carro.drift();
+carro.desligar();
 carro.trocarDeMarcha();
-carro.freiar();
+carro.frear();
 
 
 
 var moto = new Moto();
 
-console.log("Minha Motoquinha \n")
+console.log("Minha moto \n")
 
 moto.acelerar();
-moto.empinar();
+moto.desligar();
 moto.trocarDeMarcha();
-moto.freiar();
+moto.frear();
 
 
 
