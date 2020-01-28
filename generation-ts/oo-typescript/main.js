@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+var Moto_1 = require("./Veiculo/Model/Moto");
+var Carro_1 = require("./Veiculo/Model/Carro");
+var carro = new Carro_1.Carro();
+console.log("Meu Caranguinho \n");
+carro.acelerar();
+carro.drift();
+carro.trocarDeMarcha();
+carro.freiar();
+var moto = new Moto_1.Moto();
+console.log("Minha Motoquinha \n");
+moto.acelerar();
+moto.empinar();
+moto.trocarDeMarcha();
+moto.freiar();
